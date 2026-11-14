@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="440" viewBox="0 0 740 440" role="img" aria-labelledby="title">
+<title id="title">Длина текстов и расхождения разметки</title>
+<rect width="740" height="440" fill="#fff"/>
+<g font-family="system-ui,sans-serif" font-size="14" fill="#182838">
+<text x="24" y="32">Длина исходного текста</text>
+<text x="398" y="32">Разметка train в строках с расхождениями</text>
+<text x="24" y="55">Доля строк по числу символов</text>
+<text x="398" y="55">Доля BIO-спанов каждого типа</text>
+<text x="24" y="88">≤ 64</text>
+<rect x="24" y="96" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="96" width="81.61" height="12" fill="#145e81"/>
+<text x="274" y="107">34.0%</text>
+<rect x="24" y="113" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="113" width="76.79" height="12" fill="#805432"/>
+<text x="274" y="124">32.0%</text>
+<text x="24" y="149">65–128</text>
+<rect x="24" y="157" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="157" width="69.65" height="12" fill="#145e81"/>
+<text x="274" y="168">29.0%</text>
+<rect x="24" y="174" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="174" width="67.50" height="12" fill="#805432"/>
+<text x="274" y="185">28.1%</text>
+<text x="24" y="210">129–256</text>
+<rect x="24" y="218" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="218" width="74.60" height="12" fill="#145e81"/>
+<text x="274" y="229">31.1%</text>
+<rect x="24" y="235" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="235" width="70.29" height="12" fill="#805432"/>
+<text x="274" y="246">29.3%</text>
+<text x="24" y="271">257–512</text>
+<rect x="24" y="279" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="279" width="10.31" height="12" fill="#145e81"/>
+<text x="274" y="290">4.3%</text>
+<rect x="24" y="296" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="296" width="8.87" height="12" fill="#805432"/>
+<text x="274" y="307">3.7%</text>
+<text x="24" y="332">&gt; 512</text>
+<rect x="24" y="340" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="340" width="3.84" height="12" fill="#145e81"/>
+<text x="274" y="351">1.6%</text>
+<rect x="24" y="357" width="240" height="12" fill="#e7edf1"/>
+<rect x="24" y="357" width="16.56" height="12" fill="#805432"/>
+<text x="274" y="368">6.9%</text>
+<text x="24" y="404">Train — синий · test — коричневый</text>
+<text x="398" y="88">Имя</text>
+<rect x="398" y="96" width="240" height="12" fill="#e7edf1"/>
+<rect x="398" y="96" width="60.12" height="12" fill="#145e81"/>
+<text x="648" y="107">25.1%</text>
+<text x="398" y="149">Фамилия</text>
+<rect x="398" y="157" width="240" height="12" fill="#e7edf1"/>
+<rect x="398" y="157" width="61.55" height="12" fill="#145e81"/>
+<text x="648" y="168">25.6%</text>
+<text x="398" y="210">Отчество</text>
+<rect x="398" y="218" width="240" height="12" fill="#e7edf1"/>
+<rect x="398" y="218" width="68.60" height="12" fill="#145e81"/>
+<text x="648" y="229">28.6%</text>
+<text x="398" y="271">Телефон</text>
+<rect x="398" y="279" width="240" height="12" fill="#e7edf1"/>
+<rect x="398" y="279" width="8.66" height="12" fill="#145e81"/>
+<text x="648" y="290">3.6%</text>
+<text x="398" y="332">Email</text>
+<rect x="398" y="340" width="240" height="12" fill="#e7edf1"/>
+<rect x="398" y="340" width="0.82" height="12" fill="#145e81"/>
+<text x="648" y="351">0.3%</text>
+<text x="398" y="404">Шкала каждой полосы от 0 до 100%</text>
+</g>
+</svg>

@@ -1,0 +1,133 @@
+{
+  "train": {
+    "rows": 17137,
+    "sha256": "612586403223c0a1d8f23281b8f299e20c53287ceafeca4cb33e15937853f6c6",
+    "file_bytes": 12693690,
+    "exact_duplicate_extra_rows": 0,
+    "normalized_duplicate_extra_rows": 62,
+    "exact_annotated_duplicate_extra_rows": 0,
+    "same_raw_text_with_different_token_tag_sequences": 0,
+    "entity_free_rows_among_valid_bio": 1237,
+    "token_length": {
+      "median": 19,
+      "max": 388
+    },
+    "character_length_histogram": {
+      "64": 5827,
+      "128": 4973,
+      "256": 5327,
+      "512": 736,
+      ">512": 274
+    },
+    "target_bio_spans": {
+      "FIRST_NAME": 3876,
+      "LAST_NAME": 3361,
+      "MIDDLE_NAME": 2344,
+      "PHONE": 2134,
+      "EMAIL": 1755
+    },
+    "target_bio_spans_in_mismatched_rows": {
+      "FIRST_NAME": 971,
+      "LAST_NAME": 862,
+      "MIDDLE_NAME": 670,
+      "PHONE": 77,
+      "EMAIL": 6
+    },
+    "issues": {
+      "text_token_mismatch_ignoring_whitespace": 1429,
+      "text_token_mismatch_after_normalization": 1429
+    },
+    "aligned_email_span_spacing": {
+      "with_whitespace": 1738,
+      "contiguous": 11
+    },
+    "entity_spans": {
+      "FIRST_NAME": 3876,
+      "LAST_NAME": 3361,
+      "CITY": 2669,
+      "PASSPORT": 2540,
+      "MIDDLE_NAME": 2344,
+      "STREET": 2190,
+      "PHONE": 2134,
+      "URL": 2090,
+      "COUNTRY": 1999,
+      "HOUSE": 1906,
+      "EMAIL": 1755,
+      "DISTRICT": 1696,
+      "DRIVER_LICENSE": 1688,
+      "REGION": 1650,
+      "BIRTH_CERTIFICATE": 1590,
+      "MILITARY_ID": 1442,
+      "INN": 1163,
+      "CREDIT_CARD": 989,
+      "IP_ADDRESS": 939,
+      "SNILS": 924,
+      "OMS": 742
+    }
+  },
+  "published_test": {
+    "rows": 2841,
+    "sha256": "6bf544a380a3ee5bec94b946124bea3afaecce49e734679ad0f0c0e7c12977bb",
+    "file_bytes": 3225069,
+    "exact_duplicate_extra_rows": 0,
+    "normalized_duplicate_extra_rows": 0,
+    "exact_annotated_duplicate_extra_rows": 0,
+    "same_raw_text_with_different_token_tag_sequences": 0,
+    "entity_free_rows_among_valid_bio": 371,
+    "token_length": {
+      "median": 19,
+      "max": 921
+    },
+    "character_length_histogram": {
+      "64": 909,
+      "128": 799,
+      "256": 832,
+      "512": 105,
+      ">512": 196
+    },
+    "target_bio_spans": {
+      "FIRST_NAME": 499,
+      "LAST_NAME": 457,
+      "MIDDLE_NAME": 308,
+      "PHONE": 173,
+      "EMAIL": 221
+    },
+    "target_bio_spans_in_mismatched_rows": {
+      "FIRST_NAME": 0,
+      "LAST_NAME": 0,
+      "MIDDLE_NAME": 0,
+      "PHONE": 2,
+      "EMAIL": 0
+    },
+    "issues": {
+      "text_token_mismatch_ignoring_whitespace": 2
+    }
+  },
+  "cross_split": {
+    "exact_text": {
+      "shared_keys": 0,
+      "train_rows": 0,
+      "test_rows": 0
+    },
+    "normalized_text": {
+      "shared_keys": 0,
+      "train_rows": 0,
+      "test_rows": 0
+    },
+    "bio_masked_template": {
+      "shared_keys": 318,
+      "train_rows": 1960,
+      "test_rows": 452
+    },
+    "exact_annotated_row": {
+      "shared_keys": 0,
+      "train_rows": 0,
+      "test_rows": 0
+    },
+    "bio_masked_template_at_least_three_unmasked_word_tokens": {
+      "shared_keys": 189,
+      "train_rows": 933,
+      "test_rows": 255
+    }
+  }
+}

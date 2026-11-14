@@ -1,0 +1,44 @@
+{
+  "rows": {
+    "mismatch": 1429,
+    "mismatch_all_target_spans_exact_candidates": 9,
+    "mismatch_no_target_spans_exact_candidates": 1133,
+    "mismatch_some_target_spans_exact_candidates": 72,
+    "mismatch_without_target_spans": 215,
+    "train_total": 17137
+  },
+  "target_spans_by_status": {
+    "exact_candidate": 111,
+    "span_changed_or_interrupted": 3,
+    "surface_absent": 2468,
+    "surface_repeats": 4
+  },
+  "target_spans_by_type": {
+    "EMAIL": {
+      "exact_candidate": 5,
+      "surface_repeats": 1
+    },
+    "FIRST_NAME": {
+      "exact_candidate": 8,
+      "span_changed_or_interrupted": 1,
+      "surface_absent": 960,
+      "surface_repeats": 2
+    },
+    "LAST_NAME": {
+      "exact_candidate": 13,
+      "span_changed_or_interrupted": 1,
+      "surface_absent": 847,
+      "surface_repeats": 1
+    },
+    "MIDDLE_NAME": {
+      "exact_candidate": 8,
+      "span_changed_or_interrupted": 1,
+      "surface_absent": 661
+    },
+    "PHONE": {
+      "exact_candidate": 77
+    }
+  },
+  "target_spans_in_mismatched_rows": 2586,
+  "train_sha256": "612586403223c0a1d8f23281b8f299e20c53287ceafeca4cb33e15937853f6c6"
+}
