@@ -1,0 +1,35 @@
+{
+  "aligned_rows": 15708,
+  "by_type": {
+    "EMAIL": {
+      "exact_matches": 0,
+      "gold": 329,
+      "precision": null,
+      "predicted": 0,
+      "recall": 0.0
+    },
+    "PERSON": {
+      "exact_matches": 0,
+      "gold": 773,
+      "precision": null,
+      "predicted": 0,
+      "recall": 0.0
+    },
+    "PHONE": {
+      "exact_matches": 263,
+      "gold": 473,
+      "precision": 0.9740740740740741,
+      "predicted": 270,
+      "recall": 0.5560253699788583
+    }
+  },
+  "fit_rows": 12482,
+  "split_version": "piimask-v1",
+  "train_sha256": "612586403223c0a1d8f23281b8f299e20c53287ceafeca4cb33e15937853f6c6",
+  "validation_gold_email_spans_with_whitespace": 329,
+  "validation_groups": 2216,
+  "validation_row_ids_sha256": "b73d87556b4aca7ce2811e95b08c55d49aab5bb132785de6bb87d5653b47f520",
+  "validation_rows": 3226,
+  "validation_rows_with_nonmatching_prediction": 7,
+  "validation_rows_with_uncovered_gold": 930
+}

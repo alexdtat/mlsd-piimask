@@ -1,0 +1,78 @@
+{
+  "domain-00000-of-00001.parquet": {
+    "by_type": {
+      "EMAIL": {
+        "exact_matches": 102,
+        "exact_precision": 1.0,
+        "exact_recall": 0.9902912621359223,
+        "fully_masked": 102,
+        "gold": 103,
+        "gold_with_internal_whitespace": 0,
+        "partly_masked": 0,
+        "predicted": 102,
+        "unmasked": 1
+      },
+      "PHONE": {
+        "exact_matches": 147,
+        "exact_precision": 0.9865771812080537,
+        "exact_recall": 1.0,
+        "fully_masked": 147,
+        "gold": 147,
+        "gold_with_internal_whitespace": 29,
+        "partly_masked": 0,
+        "predicted": 149,
+        "unmasked": 0
+      }
+    },
+    "coverage": {
+      "masked_characters_outside_any_gold_pii": 22,
+      "masked_characters_outside_contact_gold": 22,
+      "rows_with_mask_outside_any_gold_pii": 1,
+      "rows_with_mask_outside_contact_gold": 1,
+      "rows_with_missed_contact": 1,
+      "rows_without_any_gold_pii_with_mask": 0,
+      "unmasked_contact_characters": 25
+    },
+    "file_sha256": "7ef3574273c0fe3a987981e38e32cd2764031a82766ca5b235bfccd1f27058eb",
+    "rows": 900,
+    "rows_without_any_gold_pii": 378
+  },
+  "entity-00000-of-00001.parquet": {
+    "by_type": {
+      "EMAIL": {
+        "exact_matches": 70,
+        "exact_precision": 1.0,
+        "exact_recall": 1.0,
+        "fully_masked": 70,
+        "gold": 70,
+        "gold_with_internal_whitespace": 0,
+        "partly_masked": 0,
+        "predicted": 70,
+        "unmasked": 0
+      },
+      "PHONE": {
+        "exact_matches": 58,
+        "exact_precision": 0.9354838709677419,
+        "exact_recall": 0.8285714285714286,
+        "fully_masked": 58,
+        "gold": 70,
+        "gold_with_internal_whitespace": 0,
+        "partly_masked": 0,
+        "predicted": 62,
+        "unmasked": 12
+      }
+    },
+    "coverage": {
+      "masked_characters_outside_any_gold_pii": 0,
+      "masked_characters_outside_contact_gold": 44,
+      "rows_with_mask_outside_any_gold_pii": 0,
+      "rows_with_mask_outside_contact_gold": 4,
+      "rows_with_missed_contact": 12,
+      "rows_without_any_gold_pii_with_mask": 0,
+      "unmasked_contact_characters": 132
+    },
+    "file_sha256": "6e0c77d566c2f04e7213917b26f1038336e28fc006551fac7a7f44f7627d5f96",
+    "rows": 910,
+    "rows_without_any_gold_pii": 0
+  }
+}
