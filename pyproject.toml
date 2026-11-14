@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "piimask"
+version = "0.1.0"
+description = "Локальное маскирование персональных данных в обращениях поддержки"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Татьяненко Алексей Дмитриевич" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.17.3",
+    "pre-commit==4.7.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/piimask"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "SIM", # flake8-simplify
+    "N",   # pep8-naming
+]
+
+[tool.ruff.format]
+quote-style = "double"
