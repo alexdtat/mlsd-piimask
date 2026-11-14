@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Инструменты
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.local-backup/
+
+# Секреты: ключи API хранятся только в .env
+.env
+.env.*
+!.env.example
+
+# Данные и артефакты не коммитятся: скачиваются и собираются скриптами
+data/raw/
+data/interim/
+data/processed/
+models/
+*.onnx
+*.safetensors
